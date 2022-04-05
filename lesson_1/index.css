@@ -1,0 +1,33 @@
+a {
+    color: #3622ec;
+    text-decoration: none;
+}
+
+body {
+    background: #bfd9d9;
+    text-align: center;
+}
+
+h1 {
+    background: #f3e695;
+    color: #1534b7;
+}
+
+h2 {
+    background: #eea471;
+}
+
+img {
+    width: 400px;
+}
+
+li {
+    background: #f3e695;
+    text-align: justify;;
+}
+
+p {
+    background: silver;
+    color: #1534b7;
+}
+

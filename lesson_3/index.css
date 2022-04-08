@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.border_black_1px {
+    border: black solid 1px;
+
+}
+
+.card1 {
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    height: 300px;
+    padding-top: 30px;
+    position: relative;
+    row-gap: 30px;
+    width: 250px;
+}
+
+.card1 > p {
+    color: silver;
+    line-height: 30px;
+    text-align: center;
+}
+
+.cards1 {
+    column-gap: 30px;
+    margin: 40px 0;
+}
+
+.cards2_box1 {
+    background: #022e3f;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+}
+
+.cards2_box2 {
+    color: #6765e1;
+    font-size: 25px;
+    word-spacing: 20px;
+}
+
+.cards2_box3 {
+    background: #6765e1;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.cards2_boxes {
+    column-gap: 30px;
+    position: absolute;
+    top: -50px;
+}
+
+.cards2 > div.cards2_path1 {
+    background: silver;
+    height: 80px;
+    justify-content: space-between;
+    padding: 0 100px;
+    width: 100%;
+}
+
+.cards2_path2 {
+    background: #022e3f;
+    height: 400px;
+    width: 100%;
+}
+
+.cards2_path3 {
+    background: silver;
+    height: 150px;
+    position: relative;
+    width: 100%;
+}
+
+.flex_center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.more {
+    height: 40px;
+    width: 150px;
+}
+
+.round {
+    background: white;
+    border-radius: 50%;
+    color: #fe8d02;
+    font-size: 30px;
+    height: 80px;
+    position: absolute;
+    top: -50px;
+    width: 80px;
+}
+
+.wrap {
+    padding: 20px
+}
